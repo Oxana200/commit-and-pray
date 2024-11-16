@@ -1,3 +1,7 @@
+img {
+    border-radius: 100px;
+}
+
 .section-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -5,9 +9,13 @@
     line-height: 0.92;
     letter-spacing: -0.02em;
     color: #0c0c0c;
+    padding-bottom: 40px;
+    padding-left: 65px;
 }
 
 .review-author {
+    margin-bottom: 8px;
+    margin-top: 24px;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 18px;
@@ -25,4 +33,32 @@
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 370px;
+    height: 272px;
+    background-color: #f3f3f3;
+}
+
+
+.review-list {
+    display: flex;
+    justify-content: center;
+}
+
+.review-block {
+    margin: 0 20px;
+} 
+
+.image-wrapper {
+    padding-left: 121px;
+    padding-right: 121px;
+}
+
+.author-picture {
+    top: 32px;
 }
