@@ -18,6 +18,7 @@
 }
 
 .hero-title {
+  max-width: 335px;
   font-weight: 600;
   font-size: 40px;
   line-height: 0.95;
@@ -113,6 +114,7 @@
   }
 
   .hero-title {
+    max-width: 557px;
     font-size: 70px;
     line-height: 0.86;
   }
@@ -163,6 +165,7 @@
   }
 
   .hero-title {
+    max-width: 597px;
     font-size: 72px;
     line-height: 0.88;
   }
@@ -177,7 +180,6 @@
 
   .hero-persons {
     width: 146px;
-    height: 60px;
   }
 
   .person-image-2 {
