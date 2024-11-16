@@ -69,6 +69,7 @@
   color: #fbfbfb;
 }
 
+.catalog-button:hover,
 .catalog-button:focus {
   background-color: #1f3cd4;
 }
