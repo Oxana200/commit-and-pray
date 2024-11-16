@@ -40,23 +40,27 @@
 .hero-block-2 {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: flex-end;
 }
 
 .hero-persons {
-  width: 136px;
+  width: 108px;
   height: 44px;
   position: relative;
 }
 
 .person-image {
+  display: block;
+  overflow: hidden;
   position: absolute;
   top: 0;
-  width: 44px;
-  height: 44px;
+}
+
+.person-image img {
   border-radius: 100%;
   stroke-width: 2px;
   stroke: #fbfbfb;
+  width: 100%;
 }
 
 .person-image-1 {
@@ -89,19 +93,10 @@
 }
 
 .hero-image {
-  border-radius: 30px;
-}
-
-.mobile-image {
   display: block;
-}
-
-.tablet-image {
-  display: none;
-}
-
-.desk-image {
-  display: none;
+  overflow: hidden;
+  border-radius: 30px;
+  background: rgba(12, 12, 12, 0.2);
 }
 
 /* Styles for Tablet devices */
@@ -136,12 +131,8 @@
   }
 
   .hero-persons {
+    width: 136px;
     height: 60px;
-  }
-
-  .person-image {
-    width: 56px;
-    height: 56px;
   }
 
   .person-image-2 {
@@ -157,18 +148,6 @@
 
   .hero-image {
     border-radius: 50px;
-  }
-
-  .mobile-image {
-    display: none;
-  }
-
-  .tablet-image {
-    display: block;
-  }
-
-  .desk-image {
-    display: none;
   }
 }
 
@@ -197,11 +176,7 @@
   }
 
   .hero-persons {
-    height: 60px;
-  }
-
-  .person-image {
-    width: 60px;
+    width: 146px;
     height: 60px;
   }
 
@@ -210,13 +185,5 @@
   }
   .person-image-3 {
     left: 86px;
-  }
-
-  .tablet-image {
-    display: none;
-  }
-
-  .desk-image {
-    display: block;
   }
 }
