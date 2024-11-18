@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 20px;
   margin-bottom: 40px;
 }
@@ -25,6 +26,7 @@
   padding: 24px 28px;
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
+  width: 100%;
   background-color: #f3f3f3;
 }
 
@@ -68,6 +70,7 @@
   color: #fbfbfb;
 }
 
+.catalog-button:hover,
 .catalog-button:focus {
   background-color: #1f3cd4;
 }
@@ -121,11 +124,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
-  .container {
-    min-width: 1280px;
-  }
-
   .catalog {
     padding-top: 100px;
     padding-bottom: 100px;
