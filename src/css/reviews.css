@@ -1,38 +1,169 @@
-img {
-    border-radius: 100px;
+
+/* Базовий стан: всі коментарі видимі */
+.review-block {
+    display: block;
 }
 
+@media (min-width: 375px) and (max-width: 767px) {
+
+/* Заголовок секції */
 .section-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
-    font-size: 48px;
-    line-height: 0.92;
+    font-size: 32px;
+    line-height: 1.0;
     letter-spacing: -0.02em;
     color: #0c0c0c;
-    padding-bottom: 40px;
-    padding-left: 65px;
+    padding-left: 20px;
+    margin-bottom: 24px;
 }
+
+/* Ім'я людини */
 
 .review-author {
     margin-bottom: 8px;
     margin-top: 24px;
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 18px;
-    line-height: 1.1;
+    font-size: 16px;
+    line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
     color: #0c0c0c;
 }
 
+/* текст */
+
 .review-text {
     font-family: "Gilroy", sans-serif;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
+    font-size: 14px;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     text-align: center;
     color: rgba(12, 12, 12, 0.4);
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 335px;
+    height: 262px;
+    background-color: #f3f3f3;
+}
+
+/* картинки */
+
+.image-wrapper {
+    padding-left: 103.5px;
+    padding-right: 103.5px;
+}
+
+.author-picture {
+    top: 32px;
+    border-radius: 100px;
+}
+}
+
+/* На мобільних: показуємо тільки 1 коментар */
+@media (max-width: 767px) {
+    .hidden-mobile {
+        display: none;
+    }
+}
+
+/* mobile */
+
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+/* Заголовок секції */
+.section-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    padding-left: 32px;
+}
+
+/* Ім'я людини */
+
+.review-author {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+/* текст */
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 344px;
+    height: 272px;
+    background-color: #f3f3f3;
+}
+
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* картинки */
+
+.image-wrapper {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.author-picture {
+    top: 32px;
+    border-radius: 100px;
+}
+}
+
+/* На планшетах: показуємо 2 коментарі */
+@media (min-width: 768px) and (max-width: 1279px) {
+    .hidden-tablet {
+        display: none;
+    }
+}
+
+/* tablet */
+
+
+
+    /* Заголовок секції */
+.section-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    padding-left: 65px;
+}
+
+/* Ім'я людини */
+
+.review-author {
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+/* текст */
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.25;
 }
 
 
@@ -48,11 +179,10 @@ img {
 .review-list {
     display: flex;
     justify-content: center;
+    gap: 16px;
 }
 
-.review-block {
-    margin: 0 20px;
-} 
+/* картинки */
 
 .image-wrapper {
     padding-left: 121px;
@@ -61,4 +191,14 @@ img {
 
 .author-picture {
     top: 32px;
+    border-radius: 100px;
 }
+
+/* На десктопах: показуємо всі 3 коментарі */
+@media (min-width: 1280px) {
+    .hidden-desktop {
+        display: none;
+    }
+}
+
+/* desctop */
