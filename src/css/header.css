@@ -26,6 +26,13 @@
   margin: 0;
   display: flex;
   align-items: center;
+  border: 1px solid #fff;
+}
+.btn-menu-svg:hover {
+  stroke: slateblue;
+}
+.btn-menu-svg:focus {
+  stroke: slateblue;
 }
 .btn-menu-svg {
   stroke: #0c0c0c;
@@ -142,7 +149,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  max-width: 200px;
+  min-width: 200px;
   height: 100%;
   background-color: #fff;
   opacity: 0;
@@ -180,7 +187,12 @@
   width: 34px;
   height: 34px;
 }
-
+.nav-svg-btn:hover {
+  stroke: grey;
+}
+.nav-svg-btn:focus {
+  stroke: grey;
+}
 .modal-nav {
   padding-top: 240px;
   padding-bottom: 260px;
@@ -225,6 +237,10 @@
   display: flex;
   flex-direction: row;
   gap: 10px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .modal-social-media-btn {
   border: 1px solid rgba(251, 251, 251, 0.1);
@@ -232,6 +248,9 @@
   width: 34px;
   height: 34px;
   background-color: inherit;
+  display: flex;
+  justify-content: center;
+  padding: 8px 0;
 }
 .modal-media-svg {
   fill: #fbfbfb;
