@@ -157,6 +157,10 @@
     flex-wrap:wrap
 }
 
+.footer-nav-list:hover, .footer-nav-list:focus {
+    color: #fbfbfbcc;
+}
+
 @media only screen and (min-width: 768px) {
     .footer-nav-list {
         flex-wrap: nowrap;
@@ -165,14 +169,14 @@
         align-items: flex-end;
         gap: 19px;
         text-align: center;
-        white-space:nowrap
+        white-space:nowrap;
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .footer-nav-list {
         gap: 40px;
-        width:505px
+        width:505px;
     }
 }
 
