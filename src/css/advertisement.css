@@ -2,7 +2,7 @@
   padding: 60px 28px;
   border: 1px solid #000;
   border-radius: 30px;
-  background-image: url(../img/advertisement/adv-bckg-mob.jpg);
+  background-image: url(/img/advertisement/adv-bckg-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -13,7 +13,7 @@
 }
 @media (min-resolution: 192dpi) {
   .ad-section {
-    background-image: url(../img/advertisement/adv-bckg-mob-2x.jpg);
+    background-image: url(/img/advertisement/adv-bckg-mob-2x.jpg);
   }
 }
 .ad-text {
@@ -40,13 +40,13 @@
 @media only screen and (min-width: 768px) {
   .ad-section {
     padding: 80px 64px;
-    background-image: url(../img/advertisement/adv-bckg-tab.jpg);
+    background-image: url(/img/advertisement/adv-bckg-tab.jpg);
 
     gap: 32px;
   }
   @media (min-resolution: 192dpi) {
     .ad-section {
-      background-image: url(../img/advertisement/adv-bckg-tab-2x.jpg);
+      background-image: url(/img/advertisement/adv-bckg-tab-2x.jpg);
     }
   }
   .ad-text {
@@ -57,13 +57,13 @@
 @media only screen and (min-width: 1280px) {
   .ad-section {
     padding: 83px 80px;
-    background-image: url(../img/advertisement/adv-bckg-dsk.jpg);
+    background-image: url(/img/advertisement/adv-bckg-dsk.jpg);
 
     flex-wrap: nowrap;
   }
   @media (min-resolution: 192dpi) {
     .ad-section {
-      background-image: url(../img/advertisement/adv-bckg-dsk-2x.jpg);
+      background-image: url(/img/advertisement/adv-bckg-dsk-2x.jpg);
     }
   }
   .ad-link {
