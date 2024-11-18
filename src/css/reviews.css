@@ -1,12 +1,9 @@
 
-/* Базовий стан: всі коментарі видимі */
 .review-block {
     display: block;
 }
 
-@media (min-width: 375px) and (max-width: 767px) {
-
-/* Заголовок секції */
+/* Section title */
 .section-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
@@ -17,8 +14,6 @@
     padding-left: 20px;
     margin-bottom: 24px;
 }
-
-/* Ім'я людини */
 
 .review-author {
     margin-bottom: 8px;
@@ -31,8 +26,6 @@
     text-align: center;
     color: #0c0c0c;
 }
-
-/* текст */
 
 .review-text {
     font-family: "Gilroy", sans-serif;
@@ -53,7 +46,7 @@
     background-color: #f3f3f3;
 }
 
-/* картинки */
+/* images */
 
 .image-wrapper {
     padding-left: 103.5px;
@@ -64,9 +57,7 @@
     top: 32px;
     border-radius: 100px;
 }
-}
 
-/* На мобільних: показуємо тільки 1 коментар */
 @media (max-width: 767px) {
     .hidden-mobile {
         display: none;
@@ -79,7 +70,6 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
 
-/* Заголовок секції */
 .section-title {
     font-size: 48px;
     line-height: 0.92;
@@ -87,14 +77,10 @@
     padding-left: 32px;
 }
 
-/* Ім'я людини */
-
 .review-author {
     font-size: 18px;
     line-height: 1.1;
 }
-
-/* текст */
 
 .review-text {
     font-size: 16px;
@@ -117,8 +103,6 @@
     gap: 16px;
 }
 
-/* картинки */
-
 .image-wrapper {
     padding-left: 108px;
     padding-right: 108px;
@@ -130,26 +114,24 @@
 }
 }
 
-/* На планшетах: показуємо 2 коментарі */
+/* tablet */
+
+
+
+
 @media (min-width: 768px) and (max-width: 1279px) {
     .hidden-tablet {
         display: none;
     }
 }
 
-/* tablet */
 
-
-
-    /* Заголовок секції */
 .section-title {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
     padding-left: 65px;
 }
-
-/* Ім'я людини */
 
 .review-author {
     margin-bottom: 8px;
@@ -158,8 +140,6 @@
     font-size: 18px;
     line-height: 1.1;
 }
-
-/* текст */
 
 .review-text {
     font-size: 16px;
@@ -182,8 +162,6 @@
     gap: 16px;
 }
 
-/* картинки */
-
 .image-wrapper {
     padding-left: 121px;
     padding-right: 121px;
@@ -194,7 +172,6 @@
     border-radius: 100px;
 }
 
-/* На десктопах: показуємо всі 3 коментарі */
 @media (min-width: 1280px) {
     .hidden-desktop {
         display: none;
