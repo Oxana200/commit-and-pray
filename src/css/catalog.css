@@ -15,6 +15,7 @@
 
 .catalog-list {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
@@ -92,10 +93,12 @@
     column-gap: 16px;
     row-gap: 32px;
     margin-bottom: 0;
+
   }
 
   .catalog-list-item {
-    width: calc(50% - 16px)
+    padding: 24px 32px;
+    width: calc((100% - 16px)/2)
   }
 
 
@@ -121,7 +124,6 @@
 }
 
 @media screen and (min-width: 1280px) {
-
   .catalog {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -132,7 +134,7 @@
   }
 
   .catalog-list-item {
-    width: calc(33.33% - 46px)
+    width: calc((100% - 46px)/3);
   }
 
   .item-text-card {
