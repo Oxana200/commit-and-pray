@@ -34,6 +34,7 @@
   height: 42px;
   margin-bottom: 18px;
   outline: none;
+  background-color: #f3f3f3;
 }
 .contact-us-form-input::placeholder {
   font-weight: 400;
@@ -55,6 +56,7 @@
   resize: none;
   outline: none;
   overflow: hidden;
+  background-color: #f3f3f3;
 }
 .contact-us-form-textarea::placeholder {
   font-weight: 400;
@@ -78,6 +80,7 @@
   line-height: 129%;
   text-align: center;
   color: #fbfbfb;
+  margin: 0;
 }
 .contact-us-form-btn:hover,
 .contact-us-form-btn:focus {
