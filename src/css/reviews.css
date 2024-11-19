@@ -1,10 +1,14 @@
 
+.reviews-section {
+    padding-top: 100px;
+}
+
 .review-block {
     display: block;
 }
 
 /* Section title */
-.section-title {
+.review-title {
     font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
@@ -70,7 +74,7 @@
 
 @media (min-width: 768px) and (max-width: 1279px) {
 
-.section-title {
+.review-title {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
@@ -126,7 +130,7 @@
 }
 
 
-.section-title {
+.review-title {
     font-size: 48px;
     line-height: 0.92;
     margin-bottom: 40px;
