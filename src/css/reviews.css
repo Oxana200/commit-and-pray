@@ -1,6 +1,6 @@
 
 .reviews-section {
-    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* Section title */
@@ -129,7 +129,6 @@ display: none;
 
 .review-title {
     font-size: 48px;
-    line-height: 0.92;
     margin-bottom: 40px;
     padding-left: 65px;
 }
