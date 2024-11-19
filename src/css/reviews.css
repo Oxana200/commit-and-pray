@@ -43,6 +43,12 @@
     background-color: #f3f3f3;
 }
 
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
 /* images */
 
 .image-wrapper {
@@ -93,13 +99,6 @@ display: none;
     width: 344px;
     height: 272px;
     background-color: #f3f3f3;
-}
-
-
-.review-list {
-    display: flex;
-    justify-content: center;
-    gap: 16px;
 }
 
 .image-wrapper {
