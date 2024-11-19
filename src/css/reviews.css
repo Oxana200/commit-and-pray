@@ -3,13 +3,8 @@
     padding-top: 100px;
 }
 
-.review-block {
-    display: block;
-}
-
 /* Section title */
 .review-title {
-    font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
     line-height: 1.0;
@@ -22,7 +17,6 @@
 .review-author {
     margin-bottom: 8px;
     margin-top: 24px;
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
@@ -32,7 +26,6 @@
 }
 
 .review-text {
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -63,9 +56,11 @@
 }
 
 @media (max-width: 767px) {
-    .hidden-mobile {
-        display: none;
-    }
+
+.review-block-two, 
+.review-block-three {
+display: none;
+}
 }
 
 /* mobile */
@@ -118,16 +113,19 @@
 }
 }
 
+@media (max-width: 1279px) {
+
+.review-block-three {
+    display: none;
+}
+}
+
 /* tablet */
 
 
 
 
-@media (min-width: 768px) and (max-width: 1279px) {
-    .hidden-tablet {
-        display: none;
-    }
-}
+@media (min-width: 1280px) {
 
 
 .review-title {
@@ -176,10 +174,6 @@
     border-radius: 100px;
 }
 
-@media (min-width: 1280px) {
-    .hidden-desktop {
-        display: none;
-    }
 }
 
 /* desctop */
