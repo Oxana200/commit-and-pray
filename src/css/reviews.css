@@ -1,0 +1,178 @@
+
+.reviews-section {
+    padding-top: 100px;
+}
+
+/* Section title */
+.review-title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    padding-left: 20px;
+    margin-bottom: 24px;
+}
+
+.review-author {
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #0c0c0c;
+}
+
+.review-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(12, 12, 12, 0.4);
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 335px;
+    height: 262px;
+    background-color: #f3f3f3;
+}
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* images */
+
+.image-wrapper {
+    padding-left: 103.5px;
+    padding-right: 103.5px;
+}
+
+.author-picture {
+    top: 32px;
+    border-radius: 100px;
+}
+
+@media (max-width: 767px) {
+
+.review-block-two, 
+.review-block-three {
+display: none;
+}
+}
+
+/* mobile */
+
+
+
+@media (min-width: 768px) and (max-width: 1279px) {
+
+.review-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    padding-left: 32px;
+}
+
+.review-author {
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 344px;
+    height: 272px;
+    background-color: #f3f3f3;
+}
+
+.image-wrapper {
+    padding-left: 108px;
+    padding-right: 108px;
+}
+
+.author-picture {
+    top: 32px;
+    border-radius: 100px;
+}
+}
+
+@media (max-width: 1279px) {
+
+.review-block-three {
+    display: none;
+}
+}
+
+/* tablet */
+
+
+
+
+@media (min-width: 1280px) {
+
+
+.review-title {
+    font-size: 48px;
+    line-height: 0.92;
+    margin-bottom: 40px;
+    padding-left: 65px;
+}
+
+.review-author {
+    margin-bottom: 8px;
+    margin-top: 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.1;
+}
+
+.review-text {
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+
+.review-container {
+    border-radius: 30px;
+    padding: 32px 36px;
+    width: 370px;
+    height: 272px;
+    background-color: #f3f3f3;
+}
+
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.image-wrapper {
+    padding-left: 121px;
+    padding-right: 121px;
+}
+
+.author-picture {
+    top: 32px;
+    border-radius: 100px;
+}
+
+}
+
+/* desctop */
