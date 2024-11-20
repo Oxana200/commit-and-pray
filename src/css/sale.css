@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 24px;
   width: 375px;
+  padding-bottom: 60px;
 }
 
 .section-sale-title {
@@ -49,6 +50,7 @@ img {
     gap: 40px;
     width: 704px;
     height: 1200px;
+    padding-bottom: 80px;
   }
 
   .section-sale-title {
@@ -68,6 +70,7 @@ img {
     padding: 0px 65px;
     width: 1280px;
     height: 642px;
+    padding-bottom: 100px;
   }
 
   .section-sale-all-content {
