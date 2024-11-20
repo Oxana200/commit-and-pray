@@ -4,14 +4,9 @@
 
 .section-sale {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 24px;
-  padding: 0px 20px;
   width: 375px;
-  height: 1122px;
-  padding: 100px auto;
 }
 
 .section-sale-title {
@@ -24,12 +19,9 @@
 
 .section-sale-all-content {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
   width: 335px;
-  height: 1066px;
 }
 
 .sale-list-block-item-img {
@@ -91,8 +83,6 @@ img {
 
 .section-sale-wrapper-one {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 20px;
   width: 335px;
@@ -122,8 +112,6 @@ img {
 
 .sale-block-one {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: row;
   gap: 5px;
   width: 335px;
@@ -132,8 +120,6 @@ img {
 
 .sale-list-block {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: row;
   gap: 5px;
   width: 335px;
@@ -214,8 +200,6 @@ img {
 
 .product-details-title {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
   gap: 10px;
   width: 279px;
@@ -245,8 +229,6 @@ img {
 
 .price-container {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: row;
   margin-bottom: 28px;
 }
@@ -297,8 +279,6 @@ img {
 .product-advantages {
   display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: row;
   gap: 8px;
 }
