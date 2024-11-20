@@ -1,7 +1,3 @@
-/* ----------------- section-sale-container ------------------- */
-
-/* --- mobile version --- */
-
 .section-sale {
   display: flex;
   flex-direction: column;
@@ -14,7 +10,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .section-sale-all-content {
@@ -24,22 +20,9 @@
 }
 
 .sale-list-block-item-img {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.sale-list-item img {
+  display: block;
   max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  margin: auto;
 }
 
 /*--- tablet version ---*/
@@ -52,17 +35,24 @@ img {
   .section-sale-title {
     font-size: 48px;
     line-height: 0.91667;
-    padding-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   .section-sale-all-content {
     gap: 40px;
   }
 }
-/*--- PC version ---*/
+
 @media screen and (min-width: 1280px) {
   .section-sale {
     padding-bottom: 100px;
+  }
+
+  .sale-wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
   }
 
   .section-sale-all-content {
@@ -70,41 +60,18 @@ img {
   }
 }
 
-/* ----------- section-sale-wrapper-one -------------------------------*/
-
-/* --- mobile version --- */
-
 .section-sale-wrapper-one {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-bottom: 20px;
 }
 
-/*--- tablet version ---*/
 @media screen and (min-width: 768px) {
   .section-sale-wrapper-one {
     flex-direction: row;
-    max-width: 704px;
-    height: 558px;
+    margin-bottom: 40px;
   }
-}
-
-/*--- PC version ---*/
-@media screen and (min-width: 1280px) {
-  .section-sale-wrapper-one {
-    max-width: 580px;
-    height: 558px;
-  }
-}
-
-/* ----- ul sale -------------------------------------------------- */
-
-/* --- mobile version --- */
-
-.sale-block-one {
-  display: flex;
-  flex-direction: row;
-  gap: 5px;
 }
 
 .sale-list-block {
@@ -116,37 +83,47 @@ img {
 .sale-list-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 16px;
-  width: 80px;
-  height: 80px;
   background: #f3f3f3;
+  display: block;
+  max-width: 100%;
+  margin: auto;
+  padding: 14px;
 }
 
-/*--- tablet and PC version ---*/
 @media screen and (min-width: 768px) {
   .sale-block-one {
     flex-direction: column;
     gap: 10px;
-    width: 132px;
-    height: 558px;
   }
 
   .sale-list-block {
     flex-direction: column;
     gap: 10px;
-    max-width: 132px;
-    max-height: 558px;
+  }
+
+  .sale-list-item {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sale-block-one {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .sale-list-block {
+    flex-direction: column;
+    gap: 10px;
   }
 
   .sale-list-item {
     border-radius: 20px;
     width: 132px;
     height: 132px;
+    padding: 16px;
   }
 }
-
-/* -------------------- big photo ------------------------------ */
-
-/* --- mobile version --- */
 
 .sale-item-two {
   border: 1px solid rgba(12, 12, 12, 0.05);
@@ -157,38 +134,30 @@ img {
   align-items: center;
 }
 
-/*--- tablet version ---*/
 @media screen and (min-width: 768px) {
   .sale-item-two {
     border-radius: 50px;
+    width: 100%;
   }
 }
 
-/*--- PC version ---*/
 @media screen and (min-width: 1280px) {
   .sale-item-two {
     width: 428px;
+    height: 558px;
   }
 }
-
-/* ----------- section-sale-product-details -----------------------*/
-
-/* --- mobile version --- */
 
 .section-sale-wrapper-two {
   border-radius: 30px;
   background: #3350e9;
-}
-
-.product-details {
-  padding: 48px 28px;
+  padding: 28px;
 }
 
 .product-details-title {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  max-width: 279px;
   margin-bottom: 20px;
 }
 
@@ -237,8 +206,6 @@ img {
 }
 
 .old-price-border {
-  width: 68px;
-  height: 32px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -290,16 +257,9 @@ img {
 @media screen and (min-width: 768px) {
   .section-sale-wrapper-two {
     border-radius: 50px;
-  }
-
-  .product-details {
     padding: 60px;
   }
 
-  .product-details-title {
-    max-width: 436px;
-    height: 100px;
-  }
 
   .product-details-title-item {
     font-size: 32px;
@@ -337,17 +297,11 @@ img {
 /*--- PC version ---*/
 @media screen and (min-width: 1280px) {
   .section-sale-wrapper-two {
-    width: 530px;
+    padding: 60px;
     height: 558px;
   }
 
-  .product-details {
-    padding: 59px 59.5px;
-  }
-
   .product-details-title {
-    max-width: 389px;
-    height: 100px;
     margin-bottom: 21px;
   }
 

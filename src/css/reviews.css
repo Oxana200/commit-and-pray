@@ -36,8 +36,7 @@
 .review-container {
     border-radius: 30px;
     padding: 32px 36px;
-    width: 335px;
-    height: 262px;
+    max-width: 335px;
     background-color: #f3f3f3;
 }
 
@@ -49,12 +48,10 @@
 
 /* images */
 
-.image-wrapper {
-    padding-left: 103.5px;
-    padding-right: 103.5px;
-}
-
 .author-picture {
+    display: block;
+    max-width: 100%;
+    margin: auto;
     top: 32px;
     border-radius: 100px;
 }
@@ -97,13 +94,7 @@
         border-radius: 30px;
         padding: 32px 36px;
         width: 344px;
-        height: 272px;
         background-color: #f3f3f3;
-    }
-
-    .image-wrapper {
-        padding-left: 108px;
-        padding-right: 108px;
     }
 
     .author-picture {
@@ -145,6 +136,7 @@
     .review-text {
         font-size: 16px;
         line-height: 1.25;
+        margin-bottom: 20px;
     }
 
 
@@ -152,7 +144,6 @@
         border-radius: 30px;
         padding: 32px 36px;
         width: 370px;
-        height: 272px;
         background-color: #f3f3f3;
     }
 
@@ -161,11 +152,6 @@
         display: flex;
         justify-content: center;
         gap: 16px;
-    }
-
-    .image-wrapper {
-        padding-left: 121px;
-        padding-right: 121px;
     }
 
     .author-picture {
