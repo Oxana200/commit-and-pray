@@ -5,8 +5,6 @@
 .section-sale {
   display: flex;
   flex-direction: column;
-  gap: 24px;
-  width: 375px;
   padding-bottom: 60px;
 }
 
@@ -16,13 +14,13 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  padding-bottom: 24px;
 }
 
 .section-sale-all-content {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
 }
 
 .sale-list-block-item-img {
@@ -48,35 +46,27 @@ img {
 @media screen and (min-width: 768px) {
   .section-sale {
     gap: 40px;
-    width: 704px;
-    height: 1200px;
     padding-bottom: 80px;
   }
 
   .section-sale-title {
     font-size: 48px;
     line-height: 0.91667;
+    padding-bottom: 40px;
   }
 
   .section-sale-all-content {
     gap: 40px;
-    width: 704px;
-    height: 1116px;
   }
 }
 /*--- PC version ---*/
 @media screen and (min-width: 1280px) {
   .section-sale {
-    padding: 0px 65px;
-    width: 1280px;
-    height: 642px;
     padding-bottom: 100px;
   }
 
   .section-sale-all-content {
     flex-direction: row;
-    width: 1150px;
-    height: 558px;
   }
 }
 
