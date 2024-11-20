@@ -226,10 +226,6 @@ img {
   color: rgba(251, 251, 251, 0.5);
 }
 
-.sale-price-and-description {
-  margin-bottom: 28px;
-}
-
 .price-container {
   display: flex;
   flex-direction: row;
@@ -324,10 +320,6 @@ img {
     line-height: 1.125;
   }
 
-  .sale-price-and-description {
-    margin-bottom: 40px;
-  }
-
   .current-price {
     font-size: 20px;
     line-height: 1;
@@ -367,10 +359,6 @@ img {
     width: 389px;
     height: 100px;
     margin-bottom: 21px;
-  }
-
-  .sale-price-and-description {
-    margin-bottom: 81px;
   }
 
   .price-container {
