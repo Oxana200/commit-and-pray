@@ -14,7 +14,7 @@
   line-height: 1;
   letter-spacing: -0.02em;
   color: #0c0c0c;
-  padding-bottom: 24px;
+  margin-top: 24px;
 }
 
 .section-sale-all-content {
@@ -78,8 +78,6 @@ img {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 335px;
-  height: 485px;
 }
 
 /*--- tablet version ---*/
@@ -155,8 +153,6 @@ img {
 .sale-item-two {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
-  height: 385px;
   background: #f3f3f3;
   display: flex;
   justify-content: center;
@@ -196,8 +192,8 @@ img {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  width: 279px;
-  height: 84px;
+  max-width: 279px;
+  /* height: 84px; */
   margin-bottom: 20px;
 }
 
