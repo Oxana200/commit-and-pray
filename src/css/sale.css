@@ -25,7 +25,6 @@
   margin: auto;
 }
 
-/*--- tablet version ---*/
 @media screen and (min-width: 768px) {
   .section-sale {
     gap: 40px;
@@ -253,7 +252,6 @@
   color: #fbfbfb;
 }
 
-/*--- tablet version ---*/
 @media screen and (min-width: 768px) {
   .section-sale-wrapper-two {
     border-radius: 50px;
@@ -294,7 +292,6 @@
   }
 }
 
-/*--- PC version ---*/
 @media screen and (min-width: 1280px) {
   .section-sale-wrapper-two {
     padding: 60px;
