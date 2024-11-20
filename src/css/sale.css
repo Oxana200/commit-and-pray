@@ -160,6 +160,10 @@ img {
   width: 335px;
   height: 385px;
   background: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 /*--- tablet version ---*/
