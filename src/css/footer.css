@@ -64,7 +64,8 @@
     width: 34px;
     height: 34px;
     padding: 8px;
-    transition: .25s cubic-bezier(.4, 0, .2, 1)
+
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-icon:hover,
@@ -93,7 +94,9 @@
     padding: 14px;
     flex-shrink: 0;
     margin-bottom: 40px;
-    transition: .25s cubic-bezier(.4, 0, .2, 1)
+
+    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-phone-number:hover,
@@ -148,7 +151,9 @@
     align-content: flex-start;
     row-gap: 8px;
     column-gap: 16px;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-nav-list:hover,
@@ -203,17 +208,30 @@
     }
 }
 
+.footer-nav-link {
+    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-nav-link:hover,
 .footer-nav-link:focus {
     text-decoration: underline;
     color: #fbfbfbcc;
-    transition: .25s cubic-bezier(.4, 0, .2, 1)
 }
 
 .footer-adress {
     display: flex;
     width: 83px;
-    text-align: left
+    text-align: left;
+
+    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-adress:hover,
+.footer-adress:focus {
+    text-decoration: underline;
+    color: #fbfbfbcc;
 }
 
 @media only screen and (min-width: 768px) {
@@ -257,29 +275,19 @@
     }
 }
 
+.footer-down-content {
+    transition: text-decoration 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .footer-down-content>a:hover,
 .footer-down-content>a:focus {
     text-decoration: underline;
     color: #fbfbfbcc;
-    transition: .25s cubic-bezier(.4, 0, .2, 1)
 }
 
 .confidential-link {
     margin-right: 20px
-}
-
-.footer-nav-container:after {
-    content: " ";
-    border: 1px solid rgba(251, 251, 251, .1);
-    position: absolute;
-    bottom: -24px;
-    width: 100%
-}
-
-@media only screen and (min-width: 768px) {
-    .footer-nav-container:after {
-        bottom: -28px
-    }
 }
 
 @media only screen and (min-width: 768px) {

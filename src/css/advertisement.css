@@ -1,6 +1,7 @@
 .ad-section {
   padding-bottom: 60px;
 }
+
 .wrapper {
   padding: 60px 28px;
   border-radius: 30px;
@@ -13,11 +14,13 @@
   flex-wrap: wrap;
   gap: 28px;
 }
+
 @media (min-resolution: 192dpi) {
   .wrapper {
     background-image: url(/img/advertisement/adv-bckg-mob-2x.jpg);
   }
 }
+
 .ad-text {
   width: 279px;
   font-weight: 600;
@@ -25,9 +28,11 @@
   line-height: 1;
   color: #fbfbfb;
 }
+
 .ad-text-accent {
   color: #fbfbfb80;
 }
+
 .ad-link {
   display: flex;
   align-items: center;
@@ -40,31 +45,37 @@
   font-weight: 500;
   color: #fbfbfb;
 }
+
 @media only screen and (min-width: 768px) {
   .ad-section {
     padding-bottom: 80px;
   }
+
   .wrapper {
     padding: 80px 64px;
     background-image: url(/img/advertisement/adv-bckg-tab.jpg);
 
     gap: 32px;
   }
+
   @media (min-resolution: 192dpi) {
     .wrapper {
       background-image: url(/img/advertisement/adv-bckg-tab-2x.jpg);
     }
   }
+
   .ad-text {
     width: 576px;
     font-size: 48px;
     line-height: 0.9;
   }
 }
+
 @media only screen and (min-width: 1280px) {
   .ad-section {
     padding-bottom: 100px;
   }
+
   .wrapper {
     padding: 83px 80px;
     background-image: url(/img/advertisement/adv-bckg-dsk.jpg);
@@ -72,19 +83,24 @@
     flex-wrap: nowrap;
     justify-content: space-between;
   }
+
   @media (min-resolution: 192dpi) {
     .wrapper {
       background-image: url(/img/advertisement/adv-bckg-dsk-2x.jpg);
     }
   }
+
   .ad-text {
     width: 690px;
   }
+
   .ad-link {
     flex-shrink: 0;
+
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
   .ad-link:hover,
   .ad-link:focus {
     background-color: #fbfbfb;
