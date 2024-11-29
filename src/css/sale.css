@@ -73,6 +73,13 @@
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .section-sale-wrapper-one {
+    flex-direction: row;
+    margin-bottom: 0px;
+  }
+}
+
 .sale-list-block {
   display: flex;
   flex-direction: row;

@@ -8,44 +8,36 @@
           phone, and message and we'll get back to you shortly.
         </p>
         <form>
-          <div>
-            <input
-              class="contact-us-form-input"
-              type="text"
-              placeholder="Name"
-              name="name"
-              required
-            />
-          </div>
-          <div>
-            <input
-              class="contact-us-form-input"
-              type="text"
-              placeholder="Email"
-              name="email"
-              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-              required
-            />
-          </div>
-          <div>
-            <input
-              class="contact-us-form-input"
-              type="text"
-              name="tel"
-              pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
-              placeholder="+380"
-              required
-            />
-          </div>
-          <div>
-            <textarea
-              class="contact-us-form-textarea"
-              name="user-comment"
-              id="user-comment"
-              placeholder="Comment"
-              required
-            ></textarea>
-          </div>
+          <input
+            class="contact-us-form-input"
+            type="text"
+            placeholder="Name"
+            name="name"
+            required
+          />
+          <input
+            class="contact-us-form-input"
+            type="email"
+            placeholder="Email"
+            name="email"
+            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+            required
+          />
+          <input
+            class="contact-us-form-input"
+            type="tel"
+            name="tel"
+            pattern="^\+\d{3}-\d{2}-\d{3}-\d{2}-\d{2}$"
+            placeholder="+380"
+            required
+          />
+          <textarea
+            class="contact-us-form-textarea"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Comment"
+            required
+          ></textarea>
           <button type="submit" class="contact-us-form-btn">Send</button>
         </form>
       </div>

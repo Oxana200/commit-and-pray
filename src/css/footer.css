@@ -34,6 +34,12 @@
     margin-bottom: 20px
 }
 
+@media only screen and (min-width: 1280px) {
+    .footer-logo-link {
+        margin-bottom: 0;
+    }
+}
+
 .footer-logo {
     font-size: 16px;
     line-height: normal;
@@ -139,8 +145,9 @@
 @media only screen and (min-width: 1280px) {
     .footer-text {
         position: absolute;
-        top: 90px;
-        right: 367px
+        top: 40px;
+        right: 367px;
+        margin-bottom: 0;
     }
 }
 
@@ -246,7 +253,8 @@
     font-style: normal;
     font-weight: 500;
     line-height: 1.4;
-    letter-spacing: -.02em
+    letter-spacing: -.02em;
+    margin-bottom: 8px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -256,10 +264,6 @@
         font-size: 14px;
         line-height: 1.28
     }
-}
-
-.footer-down-content>p {
-    margin-bottom: 8px
 }
 
 @media only screen and (min-width: 768px) {
